@@ -1,0 +1,99 @@
+/* Global Layout Set-up */
+* { 
+    box-sizing: border-box;
+  }
+    
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+  }
+
+#wrapper{
+    background: url('images/grid-bg.png') no-repeat top right;
+    width: 90%;
+}
+
+h1{
+    font-size: 10em;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin: 100px 0px 50px 0px;
+    float: left;
+}
+
+h2{
+    font-size: 4em;
+    font-weight: 300;
+    line-height: 1.25em;
+    margin: 0;
+    width: 950px;
+    float: left;
+}
+
+h3{
+    font-size: 2.5em;
+    font-weight: 300;
+    line-height: 1.25em;
+}
+
+p{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+/* end base styles */
+
+/* nav */
+.main-nav {
+    width: 100%;
+    min-height: 30px;
+    padding: 10px;
+}
+
+.logo{
+    width: 250px;
+    display: block;
+    float: left;
+    margin-right: 75px;
+}
+
+.social-media{
+    display: flex;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.social-media img{
+    height: 50px;
+    margin-right: 35px;
+}
+
+/* header */
+#hello{
+    float: left;
+}
+
+header img{
+    width: 30%;
+    margin-left: 30px;
+    border: 15px solid #e2e735;
+    border-radius: 35px;
+}
+
+#location{
+    display: inline;
+    margin-top: 75px;
+    background-color: cyan;
+}
+
+/* card styles */
+.card{
+    background-color: darkcyan;
+    border-radius: 35px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .4);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
