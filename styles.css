@@ -4,14 +4,11 @@
   }
     
   body {
-    margin: 0;
-    padding: 0;
     font-family: proxima-nova, sans-serif;
     font-style: normal;
     background: url('images/grid-bg.png') no-repeat top right;
-    background-position: right 12% top 0;
-    width: 85%;
-    max-width: 1444px;
+    width: 90%;
+    max-width: 1440px;
     margin: 0 auto;
     padding-top: 25px;
   }
@@ -141,14 +138,6 @@ i{
     margin-right: 5%;
 }
 
-.experience{
-    float: left;
-    width: 70%;
-    height: auto;
-    padding-left: 5%;
-    border-left: 3px solid #bbbdbf;
-}
-
 .grey-box{
     background-color: #e5e6e7;
     border-radius: 35px;
@@ -159,6 +148,14 @@ i{
 .grey-box li{
     font-size: 1.5em;
     font-weight: 300;
+}
+
+.experience{
+    float: left;
+    width: 70%;
+    height: auto;
+    padding-left: 5%;
+    border-left: 3px solid #bbbdbf;
 }
 
 .experience li{
@@ -198,5 +195,3 @@ footer a{
 .copyright{
     font-size: 1em;
 }
-
-/* Media Queries */
