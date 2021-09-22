@@ -11,6 +11,7 @@
     background: url('images/grid-bg.png') no-repeat top right;
     background-position: right 12% top 0;
     width: 85%;
+    max-width: 1444px;
     margin: 0 auto;
     padding-top: 25px;
   }
@@ -131,6 +132,7 @@ i{
     color: #e2e735;
 }
 
+
 /* resume styles */
 .ed-and-skills{
     float: left;
@@ -187,3 +189,14 @@ i{
 footer{
     float: left;
 }
+
+footer a{
+    font-weight: 700;
+    color: black;
+}
+
+.copyright{
+    font-size: 1em;
+}
+
+/* Media Queries */
